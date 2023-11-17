@@ -318,7 +318,6 @@ int	main(void)
 	printf("\n\n\n++++++++++FINISHED BONUS PART++++++++++\n");
 	printf("Return value errors : %d\n\n\n", err);
 
-	TEST("%.*d\n", 12, 12, C, D);
 
 
 	free(p1);

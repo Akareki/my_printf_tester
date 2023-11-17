@@ -99,9 +99,6 @@ int	main(void)
 	TEST("%d%% of %s are %c\n", 42, "mallocs", '0', 0);
 	TEST("Oops all NULL : %s %p %s %p\n", NULL, NULL, NULL, NULL)
 	printf("\n\nReturn value errors : %d\n", err);
-	TEST("On ferme : %d", ft_close(), 0, 0, 0);
-	ft_printf("%s", 1234);
-	//TEST("ERROR : %s", 1234, 0, 0, 0);
 
 	free(p1);
 	free(p2);
